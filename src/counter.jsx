@@ -1,7 +1,11 @@
+import { useState } from "react";
+
+
  export default function Counter (){
     const[count,setCount] = useState(0);
     const handleAdd = ()=>{
-        setCount(5);
+        let newState = count + 1
+        setCount(newState);
     }
     const counterStyle={
         border:'2px solid yellow'
