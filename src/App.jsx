@@ -1,5 +1,6 @@
 import './App.css'
 import Reseter from './reseter'
+import ShowText from './showText'
 // import Counter from './counter'
 // import BatsMan from './batsman'
 // import Users from './users'
@@ -18,7 +19,8 @@ function App() {
   return (
     <>
       <h1>React</h1>
-      <Reseter></Reseter>
+      <ShowText></ShowText>
+      {/* <Reseter></Reseter> */}
       {/* <Suspense fallback={<h3>Loading...</h3>}>
         <Users fetchUsers={fetchUsers}></Users>
       </Suspense>
